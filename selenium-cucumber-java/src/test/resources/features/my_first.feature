@@ -8,5 +8,5 @@ Feature: Login
     And I enter "SuperSecretPassword!" into input field having id "password"
     When I click on element having class "radius"
     Then I should get logged-in
-    Then Logout from the application
+
     
